@@ -1,0 +1,397 @@
+*{
+  margin:0;
+  padding:0;
+}
+.btn{
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+  border:1px solid black;
+  background-color: white;
+  transition: .2s;
+}
+.btn:hover {
+  background-color: rgb(136, 136, 136);
+  transition: .2s;
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+[class*='c-']{
+  display: block;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.c-1{
+  width:5%;
+}
+.c-2 {
+  width: 10%;
+}
+.c-3 {
+  width: 15%;
+}
+.c-4 {
+  width: 20%;
+}
+.c-5 {
+  width: 25%;
+}
+.c-6 {
+  width: 30%;
+}
+.c-7 {
+  width: 35%;
+}
+.c-8 {
+  width: 40%;
+}
+.c-9 {
+  width: 45%;
+}
+.c-10 {
+  width: 50%;
+}
+.c-11 {
+  width: 55%;
+}
+.c-12 {
+  width: 60%;
+}
+.c-13 {
+  width: 65%;
+}
+.c-14 {
+  width: 70%;
+}
+.c-15 {
+  width: 75%;
+}
+.c-16 {
+  width: 80%;
+}
+.c-17 {
+  width: 85%;
+}
+.c-18 {
+  width: 90%;
+}
+.c-19 {
+  width: 95%;
+}
+.c-20 {
+  width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+  .c-sm-1{
+  width:5%;
+  }
+  .c-sm-2 {
+    width: 10%;
+  }
+  .c-sm-3 {
+    width: 15%;
+  }
+  .c-sm-4 {
+    width: 20%;
+  }
+  .c-sm-5 {
+    width: 25%;
+  }
+  .c-sm-6 {
+    width: 30%;
+  }
+  .c-sm-7 {
+    width: 35%;
+  }
+  .c-sm-8 {
+    width: 40%;
+  }
+  .c-sm-9 {
+    width: 45%;
+  }
+  .c-sm-10 {
+    width: 50%;
+  }
+  .c-sm-11 {
+    width: 55%;
+  }
+  .c-sm-12 {
+    width: 60%;
+  }
+  .c-sm-13 {
+    width: 65%;
+  }
+  .c-sm-14 {
+    width: 70%;
+  }
+  .c-sm-15 {
+    width: 75%;
+  }
+  .c-sm-16 {
+    width: 80%;
+  }
+  .c-sm-17 {
+    width: 85%;
+  }
+  .c-sm-18 {
+    width: 90%;
+  }
+  .c-sm-19 {
+    width: 95%;
+  }
+  .c-sm-20 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:600px) {
+  .c-md-1 {
+    width: 5%;
+  }
+
+  .c-md-2 {
+    width: 10%;
+  }
+
+  .c-md-3 {
+    width: 15%;
+  }
+
+  .c-md-4 {
+    width: 20%;
+  }
+
+  .c-md-5 {
+    width: 25%;
+  }
+
+  .c-md-6 {
+    width: 30%;
+  }
+
+  .c-md-7 {
+    width: 35%;
+  }
+
+  .c-md-8 {
+    width: 40%;
+  }
+
+  .c-md-9 {
+    width: 45%;
+  }
+
+  .c-md-10 {
+    width: 50%;
+  }
+
+  .c-md-11 {
+    width: 55%;
+  }
+
+  .c-md-12 {
+    width: 60%;
+  }
+
+  .c-md-13 {
+    width: 65%;
+  }
+
+  .c-md-14 {
+    width: 70%;
+  }
+
+  .c-md-15 {
+    width: 75%;
+  }
+
+  .c-md-16 {
+    width: 80%;
+  }
+
+  .c-md-17 {
+    width: 85%;
+  }
+
+  .c-md-18 {
+    width: 90%;
+  }
+
+  .c-md-19 {
+    width: 95%;
+  }
+
+  .c-md-20 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:900px) {
+  .c-lg-1 {
+    width: 5%;
+  }
+
+  .c-lg-2 {
+    width: 10%;
+  }
+
+  .c-lg-3 {
+    width: 15%;
+  }
+
+  .c-lg-4 {
+    width: 20%;
+  }
+
+  .c-lg-5 {
+    width: 25%;
+  }
+
+  .c-lg-6 {
+    width: 30%;
+  }
+
+  .c-lg-7 {
+    width: 35%;
+  }
+
+  .c-lg-8 {
+    width: 40%;
+  }
+
+  .c-lg-9 {
+    width: 45%;
+  }
+
+  .c-lg-10 {
+    width: 50%;
+  }
+
+  .c-lg-11 {
+    width: 55%;
+  }
+
+  .c-lg-12 {
+    width: 60%;
+  }
+
+  .c-lg-13 {
+    width: 65%;
+  }
+
+  .c-lg-14 {
+    width: 70%;
+  }
+
+  .c-lg-15 {
+    width: 75%;
+  }
+
+  .c-lg-16 {
+    width: 80%;
+  }
+
+  .c-lg-17 {
+    width: 85%;
+  }
+
+  .c-lg-18 {
+    width: 90%;
+  }
+
+  .c-lg-19 {
+    width: 95%;
+  }
+
+  .c-lg-20 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .c-xl-1 {
+    width: 5%;
+  }
+
+  .c-xl-2 {
+    width: 10%;
+  }
+
+  .c-xl-3 {
+    width: 15%;
+  }
+
+  .c-xl-4 {
+    width: 20%;
+  }
+
+  .c-xl-5 {
+    width: 25%;
+  }
+
+  .c-xl-6 {
+    width: 30%;
+  }
+
+  .c-xl-7 {
+    width: 35%;
+  }
+
+  .c-xl-8 {
+    width: 40%;
+  }
+
+  .c-xl-9 {
+    width: 45%;
+  }
+
+  .c-xl-10 {
+    width: 50%;
+  }
+
+  .c-xl-11 {
+    width: 55%;
+  }
+
+  .c-xl-12 {
+    width: 60%;
+  }
+
+  .c-xl-13 {
+    width: 65%;
+  }
+
+  .c-xl-14 {
+    width: 70%;
+  }
+
+  .c-xl-15 {
+    width: 75%;
+  }
+
+  .c-xl-16 {
+    width: 80%;
+  }
+
+  .c-xl-17 {
+    width: 85%;
+  }
+
+  .c-xl-18 {
+    width: 90%;
+  }
+
+  .c-xl-19 {
+    width: 95%;
+  }
+
+  .c-xl-20 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+.body{
+  overflow: auto;
+  position: fixed;
+}
+
+.body-container{
+  padding:15px;
+}
+.body-container .judul {
+  margin-bottom: 20px;
+  padding:5px;
+}
+.body-container .btn-save {
+  margin-top:20px;
+}
+
+.menu-toggle{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: rgb(110, 110, 110);
+  color: white
+}
+
+@media only screen and (max-width:600px) {
+  .body {
+    width: 100%;
+    transition: .2s;
+    top:0px;
+  }
+  .body.show {
+    top: 150px;
+    transition: .2s;
+  }
+}
+@media only screen and (min-width:600px) {
+  .body {
+    width: 80%;
+    left:20%;
+  }
+}
